@@ -11,7 +11,7 @@ Hệ thống hoạt động qua giao diện dòng lệnh đơn giản, dễ tri�
 
 ## 📌 Giới thiệu
 
-**Gửi CV An Toàn và Xác Thực IP** là một ứng dụng Python giúp gửi file PDF (CV) giữa hai máy tính trong cùng mạng một cách **an toàn** và **đáng tin cậy**.
+**Gửi CV An Toàn và Kiểm Tra IP** là một ứng dụng Python giúp gửi file PDF (CV) giữa hai máy tính trong cùng mạng một cách **an toàn** và **đáng tin cậy**.
 
 Hệ thống đảm bảo:
 - 🔐 Mã hóa file bằng **AES-CBC**
