@@ -1,7 +1,7 @@
 # GỬI VC AN TOÀN VÀ KIỂM TRA IP
 
 
-  Hệ thống "Gửi CV An Toàn và Xác Thực IP" là một ứng dụng được xây dựng bằng Python nhằm đảm bảo tính bảo mật, tính toàn vẹn và tính xác thực khi truyền tải file CV (dạng PDF) giữa hai máy tính qua mạng. Hệ thống sử dụng các kỹ thuật mã hóa hiện đại như AES (Advanced Encryption Standard) để mã hóa nội dung file và RSA để mã hóa khóa phiên AES. Đồng thời, hệ thống còn tích hợp chữ ký số bằng thuật toán SHA512 kết hợp PKCS1_v1.5 để xác minh nguồn gốc và đảm bảo rằng dữ liệu không bị thay đổi trong quá trình truyền.
+  Hệ thống "Gửi CV An Toàn và Kiểm tra IP" là một ứng dụng được xây dựng bằng Python nhằm đảm bảo tính bảo mật, tính toàn vẹn và tính xác thực khi truyền tải file CV (dạng PDF) giữa hai máy tính qua mạng. Hệ thống sử dụng các kỹ thuật mã hóa hiện đại như AES (Advanced Encryption Standard) để mã hóa nội dung file và RSA để mã hóa khóa phiên AES. Đồng thời, hệ thống còn tích hợp chữ ký số bằng thuật toán SHA512 kết hợp PKCS1_v1.5 để xác minh nguồn gốc và đảm bảo rằng dữ liệu không bị thay đổi trong quá trình truyền.
 
   Một điểm quan trọng của hệ thống là chức năng kiểm tra địa chỉ IP của máy gửi trước khi chấp nhận kết nối, nhằm ngăn chặn việc nhận file từ các nguồn không đáng tin cậy. Việc truyền file được thực hiện qua giao thức TCP socket, cho phép kết nối trực tiếp trong mạng nội bộ (LAN) giữa hai máy tính: một máy gửi file và một máy nhận file.
 
